@@ -1,15 +1,11 @@
-# Caesar Cipher
+# Ruby Course
 
-The Odin Project: Caesar Cipher
+The Odin Project: Ruby Course
 
 # Introduction
 
-In this project, I am implementing a caesar cipher using ruby
+Different smaller projects using ruby
 
 # Demonstrated skills
 
 - ruby
-
-# Live Preview
-
-https://
