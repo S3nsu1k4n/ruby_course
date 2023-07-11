@@ -1,5 +1,5 @@
 def bubble_sort(array)
-  for i in 0..array.length
+  array.each do
     array.each_with_index do |value, index|
       next unless !array[index + 1].nil? && (value > array[index + 1])
 
