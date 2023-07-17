@@ -4,6 +4,7 @@
 def caesar_cipher(string, num)
   # string --> string to be modified
   # num --> shift factor
+  num = num % 26 # prevent out of char range
   result = string.split('').map do |char|
     char_int = char.ord
     if char_int.between?(97, 122)
